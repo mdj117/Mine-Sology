@@ -25,7 +25,7 @@ import org.terasology.world.generation.Region;
 import org.terasology.world.generation.WorldRasterizer;
 import org.terasology.world.generation.facets.SurfaceHeightFacet;
 
-public class MineRasterizer implements WorldRasterizer {
+public class MineWorldRasterizer implements WorldRasterizer {
 
     private Block dirt;
     private Block grass;

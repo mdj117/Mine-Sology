@@ -1,6 +1,6 @@
 /*
  * Copyright 2016 MovingBlocks
- * Credit :CptCrispyCrunchy
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -21,7 +21,13 @@ import org.terasology.math.geom.Vector2i;
 import org.terasology.math.geom.Vector3i;
 import org.terasology.utilities.procedural.Noise;
 import org.terasology.utilities.procedural.WhiteNoise;
-import org.terasology.world.generation.*;
+import org.terasology.world.generation.Border3D;
+import org.terasology.world.generation.Facet;
+import org.terasology.world.generation.FacetBorder;
+import org.terasology.world.generation.FacetProviderPlugin;
+import org.terasology.world.generation.GeneratingRegion;
+import org.terasology.world.generation.Produces;
+import org.terasology.world.generation.Requires;
 import org.terasology.world.generation.facets.SurfaceHeightFacet;
 import org.terasology.world.generation.facets.base.BaseFieldFacet2D;
 import org.terasology.world.generator.plugin.RegisterPlugin;
