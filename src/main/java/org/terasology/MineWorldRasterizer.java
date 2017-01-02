@@ -36,7 +36,7 @@ public class MineRasterizer implements WorldRasterizer {
     public void initialize() {
         dirt = CoreRegistry.get(BlockManager.class).getBlock("Core:Dirt");
         grass = CoreRegistry.get(BlockManager.class).getBlock("Core:Grass");
-        iron = CoreRegistry.get(BlockManager.class).getBlock("Core:IronOre");
+        ironore = CoreRegistry.get(BlockManager.class).getBlock("Core:IronOre");
         stone = CoreRegistry.get(BlockManager.class).getBlock("Core:Stone");
 
     }
