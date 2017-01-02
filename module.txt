@@ -1,0 +1,12 @@
+
+{
+    "id" : "Mine",
+    "version" : "0.1.1",
+    "author" : "MDJ117",
+    "displayName" : "Mine-Sology",
+    "description" : "A world in which mines exist!",
+    "dependencies" :
+    [
+        {"id": "Core", "minVersion": "1.0.0"}
+    ]
+}
