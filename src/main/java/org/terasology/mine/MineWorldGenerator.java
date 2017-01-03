@@ -42,20 +42,20 @@ public class MineWorldGenerator extends BaseFacetedWorldGenerator {
                 .addProvider(new MountainsProvider())
                 .addProvider(new CaveFacetProvider())
                 .addProvider(new CaveToDensityProvider())
-            // .addProvider(new LakeDepthFacet())
+                .addProvider(new LakeDepthFacet())
                 .addProvider(new LakeDepthProvider())
-            // .addProvider(new LakeFacet())
-            // .addProvider(new LakeHeightFacet())
-            .addProvider(new LakeHeightProvider())
+                .addProvider(new LakeFacet())
+                .addProvider(new LakeHeightFacet())
+                .addProvider(new LakeHeightProvider())
 				.addProvider(new LakeProvider())
-            // .addProvider(new LavaFacet())
-            .addProvider(new org.terasology.mine.lava.LavaProvider())
-            // .addProvider(new HouseProvider())
+                .addProvider(new LavaFacet())
+                .addProvider(new org.terasology.mine.lava.LavaProvider())
+                .addProvider(new HouseProvider())
                 .addRasterizer(new CaveRasterizer())
-            // .addRasterizer(new HouseRasterizer())
-            // .addRasterizer(new MineRasterizer())
+                .addRasterizer(new HouseRasterizer())
+                .addRasterizer(new MineRasterizer())
                 .addRasterizer(new LakeRasterizer())
-		.addPlugins();
+                .addPlugins();
 				
     }
 }

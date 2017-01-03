@@ -28,6 +28,7 @@ import org.terasology.world.generation.WorldRasterizer;
 
 import java.util.Map.Entry;
 
+/* Doesn't work because no HouseFacet is found anywhere
 public class HouseRasterizer implements WorldRasterizer {
     private Block plank;
 
@@ -58,4 +59,4 @@ public class HouseRasterizer implements WorldRasterizer {
             }
         }
     }
-}
+}*/
