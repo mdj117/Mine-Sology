@@ -28,7 +28,6 @@ import org.terasology.world.generation.Produces;
 import org.terasology.world.generation.Requires;
 import org.terasology.world.generation.facets.SurfaceHeightFacet;
 
-/* Doesn't work because no HouseFacet is found anywhere
 @Produces(HouseFacet.class)
 @Requires(@Facet(value = SurfaceHeightFacet.class, border = @FacetBorder(sides = 4)))
 public class HouseProvider implements FacetProvider {
@@ -66,4 +65,4 @@ public class HouseProvider implements FacetProvider {
 
         region.setRegionFacet(HouseFacet.class, facet);
     }
-}*/
+}
